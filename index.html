@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="id">
-
-  <head>
-  <meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ibnu Athaillah</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
-    /.social-icons i {
-  font-size: 20px;
-  margin-right: 10px;
-  color: #1e90ff;
-    } */
-  </style>
-  </head>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d1b2a;
+      color: white;
+      line-height: 1.6;
+      scroll-behavior: smooth;
     }
 
     header {
-      background-color: #0f1e2e;
-      padding: 60px 20px;
+      background-color: #1b263b;
+      padding: 30px 20px;
       text-align: center;
     }
 
     header h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+      font-size: 2.5rem;
+      margin: 0;
     }
 
-    header p span {
-      color: #1e90ff;
-      font-weight: bold;
-      animation: typing 4s steps(40, end) infinite;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 2px solid #1e90ff;
-      display: inline-block;
-    }
-
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
+    header p {
+      color: #adb5bd;
+      font-size: 1.1rem;
+      margin-top: 10px;
     }
 
     section {
@@ -48,14 +39,19 @@
     }
 
     h2 {
-      color: #1e90ff;
-      border-bottom: 2px solid #1e90ff;
-      padding-bottom: 8px;
-      margin-bottom: 20px;
+      color: #61a5c2;
+      border-bottom: 2px solid #61a5c2;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
     }
 
     a {
-      color: #1e90ff;
+      color: #4dabf7;
       text-decoration: none;
     }
 
@@ -64,62 +60,95 @@
     }
 
     .social-icons i {
-      margin-right: 8px;
-      color: #1e90ff;
+      margin-right: 10px;
+      color: #4dabf7;
     }
 
     footer {
+      background-color: #000;
+      color: white;
       text-align: center;
-      padding: 20px;
-      background-color: #0f1e2e;
-      color: #aaa;
-      margin-top: 40px;
+      padding: 20px 10px;
+    }
+
+    .fade-in {
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
+  <header class="fade-in">
+    <h1>Ibnu Athaillah</h1>
+    <p>“Menciptakan dengan logika dan estetika”<br>Fresh Graduate | AI Enthusiast | Graphic Designer</p>
+  </header>
 
-<header>
-  <h1>Ibnu Athaillah</h1>
-  <p><span>Fresh Graduate | AI Enthusiast | Crypto Learner | Designer</span></p>
-</header>
+  <section class="fade-in">
+    <h2>Tentang Saya</h2>
+    <p>Saya Ibnu Athaillah, fresh graduate dari SMA IPS (2025) yang tertarik di bidang Artificial Intelligence, desain grafis (menggunakan PixelLab), dan industri crypto. Saya juga membangun media edukasi dan self development bernama <strong>Cuandimanasi</strong>.</p>
+  </section>
 
-<section>
-  <h2>Tentang Saya</h2>
-  <p>
-    Saya Ibnu Athaillah, fresh graduate dari SMA IPS (lulus 2025). Saya tertarik pada dunia teknologi, AI, desain grafis, dan juga punya pengalaman dalam industri crypto. Saya sedang membangun <strong>Cuandimanasi</strong>, media informasi & pengembangan diri untuk pelajar digital.
-  </p>
-</section>
+  <section class="fade-in">
+    <h2>Keahlian</h2>
+    <ul>
+      <li><strong>AI:</strong> ChatGPT, Google Colab, AI tools</li>
+      <li><strong>Desain Grafis:</strong> PixelLab</li>
+      <li><strong>Crypto:</strong> Blockchain, trading, analisis pasar</li>
+      <li><strong>Soft Skills:</strong> Problem solving, time management, komunikasi</li>
+    </ul>
+  </section>
 
-<section>
-  <h2>Keahlian</h2>
-  <ul>
-    <li>AI Tools (ChatGPT, Google Colab, dsb)</li>
-    <li>Desain Grafis (PixelLab)</li>
-    <li>Pengetahuan Dasar Crypto & Web3</li>
-    <li>Time Management & Komunikasi Tertulis</li>
-  </ul>
-</section>
-  
-<section>
-  <h2>Kontak</h2>
-  <p class="social-icons">
-    <i class="fa-solid fa-envelope"></i>
-    <a href="mailto:ibnuathaillah55@gmail.com">ibnuathaillah55@gmail.com</a>
-  </p>
-  <p class="social-icons">
-    <i class="fa-brands fa-instagram"></i>
-    <a href="https://instagram.com/ibnuuathllh" target="_blank">@ibnuuathllh</a>
-  </p>
-  <p class="social-icons">
-    <i class="fa-brands fa-whatsapp"></i>
-    <a href="https://wa.me/62895412889132" target="_blank">0895412889132</a>
-  </p>
-</section>
+  <section class="fade-in">
+    <h2>Portofolio</h2>
+    <ul>
+      <li>Desain Feed Instagram</li>
+      <li>AI Chatbot Mini Project</li>
+      <li>Cuandimanasi – Media informasi & self development</li>
+      <li>Crypto Research & Trading</li>
+    </ul>
+  </section>
 
-<footer>
-  &copy; 2025 — Dibuat dengan semangat belajar dan konsistensi.
-</footer>
+  <section class="fade-in">
+    <h2>Pendidikan & Sertifikat</h2>
+    <ul>
+      <li>SMA IPS (Lulus 2025)</li>
+      <li>Sertifikat Desain Grafis (Online)</li>
+      <li>Sertifikat AI Tools</li>
+    </ul>
+  </section>
 
+  <section class="fade-in">
+    <h2>Blog / Artikel</h2>
+    <ul>
+      <li>Kenapa AI itu Keren Buat Anak IPS</li>
+      <li>Tips Desain untuk Personal Branding Pelajar</li>
+      <li>Membangun Media Edukasi dari Nol</li>
+      <li>Cara Aman Belajar Dunia Crypto untuk Pelajar</li>
+    </ul>
+  </section>
+
+  <section class="fade-in">
+    <h2>Kontak</h2>
+    <p class="social-icons">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:ibnuathaillah55@gmail.com">ibnuathaillah55@gmail.com</a>
+    </p>
+    <p class="social-icons">
+      <i class="fa-brands fa-instagram"></i>
+      <a href="https://instagram.com/ibnuuathllh" target="_blank">@ibnuuathllh</a>
+    </p>
+    <p class="social-icons">
+      <i class="fa-brands fa-whatsapp"></i>
+      <a href="https://wa.me/62895412889132" target="_blank">08954128889132</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ibnu Athaillah
+  </footer>
 </body>
 </html>
